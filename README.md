@@ -46,8 +46,11 @@ This project implements a **real-time coin counting and valuation system** using
    pip install ultralytics
    ```
 4.Upload your custom coin dataset (images + labels)
+
 5.Run all cells to train the YOLOv8 model
+
 6.Download the trained model (coin_yolov8_last.pt)
+
 7.Place it inside the 2_models folder
 
 ---
