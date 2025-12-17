@@ -43,7 +43,7 @@ This project implements a **real-time coin counting and valuation system** using
    - `Runtime` → `Change runtime type` → Select **GPU**
 3. Install dependencies inside Colab:
    ```bash
-   pip install ultralytics
+   !pip install ultralytics
    ```
 4.Upload your custom coin dataset (images + labels)
 
