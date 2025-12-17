@@ -23,12 +23,9 @@ This project implements a **real-time coin counting and valuation system** using
 ---
 
 ##  Project Structure
-  ─ 2_models/
+  ─ 2_models/coin_yolov8_last.pt 
   
-    - coin_yolov8_last.pt
-  
-  ─ notebooks/
-    - coin_training.ipynb
+  ─ notebooks/coin_training.ipynb
   
   ─ live_coin_counter.py
   
@@ -55,10 +52,12 @@ This project implements a **real-time coin counting and valuation system** using
 
 ---
 # Running Live Coin Counter (Webcam)
- Install Dependencies ```python
+ Install Dependencies 
+```bash
 pip install ultralytics opencv-python
 ```
- Run the Application ```python
+ Run the Application 
+ ```python
 python live_coin_counter.py
 ```
 Press q to exit the live camera window.
