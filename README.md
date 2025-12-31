@@ -65,3 +65,4 @@ python live_coin_counter.py
 ```
 Press q to exit the live camera window.
 
+![Output image](output.jpg)
